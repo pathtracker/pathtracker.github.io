@@ -168,7 +168,19 @@
 
 	
 	<!-- <hr> -->
-	
+	<center>
+		<table align=center width=850px>
+			<tr>
+				<td width=260px>
+					<center>
+						<img class="round" style="width:500px" src="./resources/figures/birds_small_raw.gif"/>
+						<p>Imagine trying to track the second bird from the left (at the start of the video). <br/> Now think about how would you track the same bird if there were many more of these in the scene. <br/> What strategy would you employ?</p>
+					</center>
+				</td>
+			</tr>
+		</table>
+	</center>
+
 	<table align=center width=850px>
 		<center><h1>Abstract</h1></center>
 		<tr>
@@ -180,18 +192,7 @@
 	</table>
 	<br>
 	
-	<center>
-		<table align=center width=850px>
-			<tr>
-				<td width=260px>
-					<center>
-						<img class="round" style="width:500px" src="./resources/figures/birds_small_raw.gif"/>
-						<p>Imagine trying to track the second bird from the left. <br/> Now think about how would you track the same bird if there were many more of these in the scene. What strategy would you employ?</p>
-					</center>
-				</td>
-			</tr>
-		</table>
-	</center>
+	
 	<hr>
 	<center><h1>PathTracker Challenge</h1></center>
 	<p align="center">
@@ -200,7 +201,7 @@
 		<img class="round" style="width:256px" src="./resources/figures/PT_64_14_neg.gif"/>
 	</p>
 	<p align="center">Now try and track the dot leaving the red marker in the above videos. Does it go into the blue marker? <br/> How did you track that target dot? Did you "index" and track it in some way across the video? <br/><br/>
-	Most state-of-the-art neural networks in the field of tracking are unable to compete on this task which is seemingly easy for humans. These networks generally rely on the appearance of the object, and try to segment it in every frame of the video. They struggle in solving a task like the PathTracker challenge, because segmenting at every frame will return them the target along with indistinguishable identical-looking distractors.
+	Most state-of-the-art neural networks in the field of tracking are unable to compete on this task which is seemingly easy for humans. These networks generally rely on the appearance of the object, and try to identify it in every frame of the video. They struggle in solving a task like the PathTracker challenge, because recognizing the target dot at every frame will return them the target along with indistinguishable identical-looking distractors.
 	</p>
 
 	<hr>
@@ -210,7 +211,7 @@
 		<tr>
 			<center>
 				<span style="font-size:28px">Index and Track (InT)</span>
-				<p><img class="round" style="width:1000px" src="./resources/figures/model.png"/></p>
+				<p><img class="round" style="width:600px" src="./resources/figures/model.png"/></p>
 				<p>We present Index and Track circuit. [Model description here.]</p>
 			</center>
 		</tr>
@@ -265,7 +266,7 @@
 	<table align=center width=420px>
 		<center>
 			<tr>
-				<p align="center">We are open sourcing our code and dataset for research in the field.</p>
+				<p align="center">We are open sourcing our code and dataset to encourage further advancements in the field.</p>
 				<p align="center">
 					<a href="">[Dataset]</a> <a href="">[Code]</a> <a href="">[Human data collection survey]</a>
 				</p>
