@@ -1,6 +1,6 @@
-@inproceedings{author20XXtitle,
-  title={Please cite me},
-  author={Author, First and Author, Second and Author, Third},
-  booktitle={Conference},
-  year={20XX}
+@inproceedings{linsleymalik2021tracking,
+  title={Tracking Without Re-recognition in Humans and Machines},
+  author={Linsley, Drew * and Malik, Girik * and Kim, Junkyung and Govindarajan, Lakshmi Narasimhan and Mingolla, Ennio ^ and Serre, Thomas^},
+  booktitle={Proceedings of the 35th International Conference on Neural Information Processing Systems},
+  year={2021}
 }
